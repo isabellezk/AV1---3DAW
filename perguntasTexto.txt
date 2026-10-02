@@ -1,0 +1,5 @@
+id;pergunta;
+1;Quem descobriu o brasil?
+2;Qual canal passa o desenho "O Incrível Mundo de Gumball"?
+3;Qual é o animal que mia?
+4;Qual é o animal que late?

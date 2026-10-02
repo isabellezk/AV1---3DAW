@@ -1,0 +1,5 @@
+id;pergunta;
+1;Quem descobriu o brasil?
+2;Qual a capital do Brasil?
+3;Qual o personagem principal de One Piece?
+4;Quantas estações tem no ano?

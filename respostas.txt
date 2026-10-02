@@ -1,0 +1,13 @@
+id;idPergunta;resposta;certa
+1;1;Cabral;1
+2;1;Cabrel;0
+3;1;Cabrul;0
+2;2;Rio de Janeiro;0
+3;2;Brasília;1
+4;2;Belém;0
+3;3;Nami;0
+4;3;Usopp;0
+5;3;Luffy;1
+4;4;4;1
+5;4;3;0
+6;4;2;0
