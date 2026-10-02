@@ -2,15 +2,15 @@
     $idPergunta = $id;
     $certa = $_POST['certa'];
     
-    if (!file_exists("respostas.txt")) {
-        $arqRespostas = fopen("respostas.txt", "w");
+    if (!file_exists("../respostas.txt")) {
+        $arqRespostas = fopen("../respostas.txt", "w");
 
         fwrite($arqRespostas, "id;idPergunta;resposta;certa\n");
 
         fclose($arqRespostas);
     }
 
-    $arqRespostas = fopen("respostas.txt", "a");
+    $arqRespostas = fopen("../respostas.txt", "a");
 
     $linha = $id . ";" . $idPergunta . ";" . $_POST['a'] . ";" . ($certa == 'a' ? '1' : '0') . "\n";
     fwrite($arqRespostas, $linha);
@@ -27,6 +27,3 @@
     fwrite($arqRespostas, $linha);
     fclose($arqRespostas);
 ?>
-
-
-
